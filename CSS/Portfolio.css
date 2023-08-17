@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css?family=Oregano&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Qwigley&display=swap");
+@import url(BG.css);
+@import url(navbar.css);
+@import url(social_media_button.css);
+@import url(Footer.css);
+@import url(timeline.css);
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-outline: 0;
+}
+
+html,
+body,
+input,
+textarea {
+	font: 600 14px/24px;
+	font-family: "oregano", sans-serif;
+	color: #fad2cc;
+}
+
+
+
+.container:before,
+.container:after {
+	content: "";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.container {
+	margin-bottom: 24px;
+	zoom: 1;
+
+}
+
+.container,
+section,
+aside {
+	border-radius: 6px;
+
+}
+
+section,
+aside {
+	margin-top: -70px;
+	padding: 0px 0;
+	text-align: center;
+}
+
+section {
+	float: left;
+	width: 100%;
+}
+
+aside {
+	float: right;
+	width: 29.3680297%;
+}
+
+.container {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	background: transparent;
+	padding: 1em 0;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+}
+
+.main-panel {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	height: 100vh;
+}
+
+#center {
+	display: flex;
+	align-items: top;
+	justify-content: center;
+}
+
+#right {
+	align-items: right;
+	display: flex;
+	justify-content: right;
+}
+
+.col {
+	color: #DF4C73;
+}
+
+#left {
+	align-items: left;
+	display: flex;
+	justify-content: left;
+}
+
+#bottom {
+	align-items: bottom;
+	display: flex;
+	justify-content: bottom;
+}
+
+img {
+	max-width: 100%;
+}
+
+.avatar {
+	border-radius: 50%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	height: 15rem;
+	width: 15rem;
+
+
+}
+.container-about{
+	display: block;
+
+	position: relative;
+	padding: 2%;
+	margin-top: 10%;
+	justify-content: right;	
+	text-align: right;
+	width: 50%;
+	float: right;
+}
+.container-about h1{
+	text-align: left;
+	font-size: 6vh;
+	color: #DF4C73;
+}
+.container-about p{
+	font-size: 3vh;
+	padding: 10%;
+
+}
+
+.button-49,
+.button-49:after {
+  width: 150px;
+  height: 76px;
+  line-height: 78px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  background: linear-gradient(45deg, transparent 5%, #DF4C73 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  box-shadow: 6px 0px 0px #00E6F6;
+  outline: transparent;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+.button-49:after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+  
+  content: 'ALTERNATE TEXT';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #DF4C73 5%);
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+  clip-path: var(--slice-0);
+}
+
+.button-49:hover:after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+  }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+  }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .button-49,
+  .button-49:after {
+    width: 200px;
+    height: 86px;
+    line-height: 88px;
+  }
+}
+
+div {
+	display: block;
+}
+
+
+.width-50 {
+	float: left;
+	width: 50%;
+}
+
+.banner-section {
+	width: 100%;
+	justify-content: center;
+	position: relative;
+	margin-top: 35vh;
+}
+
+.banner-section h1 {
+	font-size: 40px;
+	margin-top: 10px;
+	font-weight: bolder;
+	color: #DF4C73;
+
+}
+
+.banner-section a {
+	float: left;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 50%;
+	text-align: center;
+	border: 2px solid #DF4C73;
+	color: #DF4C73;
+	margin-left: 10px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+}
+
+
+.banner-section h2 {
+	font-size: 39px;
+	margin-top: 10px;
+	font-weight: 400;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.ro::before {
+
+	content: "Web Dev";
+	animation: animate infinite 5s;
+	padding-left: 10px;
+}
+
+@keyframes animate {
+
+	0% {
+		content: "Web Dev";
+	}
+
+	25% {
+		content: "DBMS";
+	}
+
+	50% {
+		content: "JAVA";
+	}
+
+	75% {
+		content: "Open Source";
+	}
+
+	100% {
+		content: "Games";
+	}
+}
+
+#swing1,
+#swing2 {
+	transform-origin: top;
+	animation: swing 2s infinite linear;
+}
+
+#leaf {
+	transform-origin: bottom;
+	transform-box: fill-box;
+	animation: leaf 3s infinite linear;
+}
+
+@keyframes swing {
+	0% {
+		transform: rotateX(-1deg);
+	}
+
+	55% {
+		transform: rotate(2deg);
+	}
+
+	100% {
+		transform: rotateX(-1deg);
+	}
+}
+
+@keyframes leaf {
+	0% {
+		transform: rotateX(-5deg);
+	}
+
+	55% {
+		transform: rotate(13deg);
+	}
+
+	100% {
+		transform: rotateX(-5deg);
+	}
+}
+
+.edu-ani {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-top: 35vh;
+	height: auto;
+}
+
+.edu-ani h1 {
+	font-size: 6vh;
+}
+
+.edu-ani h3 {
+	font-size: 4vh;
+	font-style: italic;
+
+}
+
+
+.block1 {
+	padding: 5%;
+	margin: 0%;
+	width: 50%;
+}
+@media (max-width: 720px){
+	.edu-ani{
+		flex-wrap: wrap-reverse;
+	}
+	.block1{
+		width: 100%;
+	}
+	.container-about{
+		width: 100%;
+		text-align: center;
+		justify-content: center;
+	}
+	.container-about h1{
+		text-align: center;
+	}
+}
