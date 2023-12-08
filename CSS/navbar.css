@@ -1,5 +1,5 @@
 .navbar{
-    box-shadow: 0px 5px 10px 0px #fad2cc;
+    box-shadow: 0px 5px 10px 0px #adaaad;
     position: fixed;
     width: 100%;
     background: #000;
@@ -27,11 +27,11 @@
 .logo{
     order: -1;
     font-size: 3.6rem;
-    color: #fad2cc;
+    color: #adaaad;
     font-family: "Qwigley" , sans-serif;
 }
 .logo:hover{
-    color: #DF4C73;
+    color: #557a95;
     cursor: pointer;
 }
 
@@ -42,14 +42,14 @@
 }
 
 .navbar a{
-    color: #fad2cc;
+    color: #adadad;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover{
-    color: #DF4C73;
+    color: #557a95;
 }
 
 
@@ -99,7 +99,7 @@
         height: 4px;
         width: 100%;
         border-radius: 10px;
-        background: #fad2cc;
+        background: #adadad;
     }
     
     
@@ -129,7 +129,7 @@
         margin-left: -40px;
         padding-left: 60px;
         transition: transform 0.3s ease-in-out;
-        box-shadow:  5px 0px 10px 0px #fad2cc;
+        box-shadow:  5px 0px 10px 0px #adadad;
 
     }
 
@@ -144,7 +144,7 @@
         top: 10px;
         right: 15px;
         font-size: 2.5rem;
-        color: #fad2cc;
+        color: #adadad;
     }
 
     .navbar-container input[type="checkbox"]:checked ~ .menu-items{
@@ -172,5 +172,5 @@
 }
 .hamburger-lines:hover, 
 .hamburger-lines:checked {
-    color: #DF4C73;
+    color: #557a95;
 }

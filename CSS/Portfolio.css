@@ -22,7 +22,7 @@ input,
 textarea {
 	font: 600 14px/24px;
 	font-family: "oregano", sans-serif;
-	color: #fad2cc;
+	color: #adadad;
 }
 
 
@@ -102,7 +102,7 @@ header {
 }
 
 .col {
-	color: #DF4C73;
+	color: #557a95;
 }
 
 #left {
@@ -145,7 +145,7 @@ img {
 .container-about h1{
 	text-align: left;
 	font-size: 6vh;
-	color: #DF4C73;
+	color: #557a95;
 }
 .container-about p{
 	font-size: 3vh;
@@ -160,11 +160,11 @@ img {
   line-height: 78px;
   font-size: 20px;
   font-family: 'Bebas Neue', sans-serif;
-  background: linear-gradient(45deg, transparent 5%, #DF4C73 5%);
+  background: linear-gradient(45deg, transparent 5%, #557a95 5%);
   border: 0;
   color: #fff;
   letter-spacing: 3px;
-  box-shadow: 6px 0px 0px #00E6F6;
+  box-shadow: 6px 0px 0px rgb(88, 181, 188);
   outline: transparent;
   position: relative;
   user-select: none;
@@ -188,7 +188,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #DF4C73 5%);
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #557a95 5%);
   text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
   clip-path: var(--slice-0);
 }
@@ -275,7 +275,7 @@ div {
 	font-size: 40px;
 	margin-top: 10px;
 	font-weight: bolder;
-	color: #DF4C73;
+	color: #557a95;
 
 }
 
@@ -286,8 +286,8 @@ div {
 	margin-top: 20px;
 	border-radius: 50%;
 	text-align: center;
-	border: 2px solid #DF4C73;
-	color: #DF4C73;
+	border: 2px solid #557a95;
+	color: #557a95;
 	margin-left: 10px;
 	height: 50px;
 	width: 50px;

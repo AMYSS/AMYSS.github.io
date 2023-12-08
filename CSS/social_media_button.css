@@ -1,4 +1,4 @@
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 .social-media ul {
     display: inline;
@@ -29,7 +29,7 @@
     justify-content: center;
     font-size: 30px;
     align-items: center;
-    color: #fad2cc;
+    color: #adadad;
     transition: all 0.3s linear;
     border-color: transparent;
 }
@@ -38,8 +38,8 @@
 	font-size: 18px;
 	margin-top: 20px;
 	text-align: center;
-	border: 2px solid #DF4C73;
-	color: #DF4C73;
+	border: 2px solid #557a95;
+	color: #557a95;
 	margin-left: 10px;
 	height: 50px;
 	width: 50px;
@@ -49,21 +49,21 @@
 
 
 .social-media ul li a:hover {
-    color: #DF4C73;
+    color: #557a95;
     font-size: 40px;
 }
 
 .social-media ul li a:hover::after {
     opacity: 1;
     transform: scale(0.8);
-    color: #DF4C73;
+    color: #557a95;
 
 }
 
 /* .social-media ul li a:hover::before {
-    border: #000;
+    border: 000;
     color: aliceblue;
-} */
+}  */
 
 .social-media ul li a::after {
     content: "";

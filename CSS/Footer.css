@@ -109,19 +109,19 @@ svg#freepik_stories-smiley-face.animated #freepik--Character--inject-31 {
     width: 100%;
     margin: 1% 0%;
     padding: 0.6% 0%;
-    color: #DF4C73;
+    color: #7395ae;
     font-size: 1.5em;
     text-align: center;
 }
 
 .footer .row a {
     text-decoration: none;
-    color: #fad2cc;
+    color: #adadad;
     transition: 0.5s;
 }
 
 .footer .row a:hover {
-    color: #DF4C73;
+    color: #557a95;
 }
 
 .footer .row ul {
@@ -176,8 +176,8 @@ svg#freepik_stories-smiley-face.animated #freepik--Character--inject-31 {
 
 .footer .contactform {
     display: block;
-    color: #DF4C73;
-    color: #DF4C73;
+    color: #557a95;
+    color: #557a95;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 10%;
@@ -196,18 +196,18 @@ svg#freepik_stories-smiley-face.animated #freepik--Character--inject-31 {
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    color: #DF4C73;
+    color: #557a95;
 }
 
 .footer .contactform form {
     display: flex;
     flex-direction: column;
-    color: #DF4C73;
+    color: #557a95;
 }
 
 .footer .contactform form label {
     font-size: 1.5rem;
-    color: #DF4C73;
+    color: #557a95;
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
@@ -218,18 +218,18 @@ svg#freepik_stories-smiley-face.animated #freepik--Character--inject-31 {
 .footer .contactform form input[type="text"],
 .footer .contactform form textarea {
     background-color: transparent;
-    color: #fad2cc;
+    color: #adaaad;
     margin-bottom: 20px;
     border: 0;
-    border-bottom: 1px solid #DF4C73;
+    border-bottom: 1px solid #557a95;
     font-size: 1.5rem;
     text-align: center;
 }
 
 .footer .contactform form input[type="text"]:focus,
 .footer .contactform form textarea:focus {
-    border-color: rgb(250, 210, 204);
-    box-shadow: 0 1px 1px #aaa inset, 0 0 8px rgba(250, 210, 204);
+    border-color: #adadad;
+    box-shadow: 0 1px 1px #557a95 inset, 0 0 8px rgba(250, 210, 204);
     outline: 0;
 }
 
@@ -240,16 +240,16 @@ svg#freepik_stories-smiley-face.animated #freepik--Character--inject-31 {
     max-width: max-content;
     background-color: transparent;
     padding: 8px 16px;
-    color: #DF4C73;
-    border: 1px solid #DF4C73;
+    color: #557a95;
+    border: 1px solid #557a95;
     margin: 50px auto;
     cursor: pointer;
 }
 
 input::placeholder {
-    color: #fad2cc;
+    color: #adadad;
 }
 
 textarea::placeholder {
-    color: #fad2cc;
+    color: #adadad;
 }
